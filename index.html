@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors game</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h2>GUESS THE COLOR GAME</h2>
+        <h1 id="RGB">rgb( )</h1>
+    </header>
+    <div id="actions">
+        <span class="act" onclick="newColors()">New colors</span>
+        <span class="act tryAgain"></span>
+        <span onclick="generateDivs(3)">Easy</span>
+        <span onclick="generateDivs(6)">Hard</span>
+    </div>
+    <div id="colors"></div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
