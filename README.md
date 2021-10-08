@@ -7,3 +7,6 @@ If you don't pick the right color, that square will disappear and you can try an
 If you pick the right color, all the squares will become the winner color.
 
 Also, you have a "New color" button and you can anytime reset the game.
+
+
+You can test my app here: https://snnack123.github.io/Guess-Color-Game/
